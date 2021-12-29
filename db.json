@@ -1,0 +1,196 @@
+{
+    "products": [
+        {
+            "image": "Jacket1.jpg",
+            "name": "T-shit 1",
+            "price": 100,
+            "article": "T1",
+            "available": true,
+            "season": "jacket"
+        },
+        {
+            "image": "Jacket2.jpg",
+            "name": "T-shit 2",
+            "price": 200,
+            "article": "T2",
+            "available": true,
+            "season": "jacket"
+        },
+        {
+            "image": "Jacket3.jpg",
+            "name": "T-shit 3",
+            "price": 300,
+            "article": "T3",
+            "available": true,
+            "season": "jacket"
+        },
+        {
+            "image": "Jacket4.jpg",
+            "name": "T-shit 4",
+            "price": 400,
+            "article": "T4",
+            "available": true,
+            "season": "jacket"
+        },
+        {
+            "image": "Jacket5.jpg",
+            "name": "T-shit 5",
+            "price": 500,
+            "article": "T5",
+            "available": true,
+            "season": "jacket"
+        },
+        {
+            "image": "Jacket6.jpg",
+            "name": "T-shit 6",
+            "price": 600,
+            "article": "T6",
+            "available": true,
+            "season": "jacket"
+        },
+        {
+            "image": "Trousers1.jpg",
+            "name": "J-shit 1",
+            "price": 150,
+            "article": "J1",
+            "available": true,
+            "season": "trousers"
+        },
+        {
+            "image": "Trousers2.jpg",
+            "name": "J-shit 2",
+            "price": 250,
+            "article": "J2",
+            "available": true,
+            "season": "trousers"
+        },
+        {
+            "image": "Trousers3.jpg",
+            "name": "J-shit 3",
+            "price": 350,
+            "article": "J3",
+            "available": true,
+            "season": "trousers"
+        },
+        {
+            "image": "Trousers4.jpg",
+            "name": "J-shit 4",
+            "price": 450,
+            "article": "J4",
+            "available": true,
+            "season": "trousers"
+        },
+        {
+            "image": "Trousers5.jpg",
+            "name": "J-shit 5",
+            "price": 550,
+            "article": "J5",
+            "available": true,
+            "season": "trousers"
+        },
+        {
+            "image": "Trousers6.jpg",
+            "name": "J-shit 6",
+            "price": 650,
+            "article": "J6",
+            "available": true,
+            "season": "trousers"
+        },
+        {
+            "image": "Boots1.jpg",
+            "name": "B-shit 1",
+            "price": 120,
+            "article": "B1",
+            "available": true,
+            "season": "boots"
+        },
+        {
+            "image": "Boots2.jpg",
+            "name": "B-shit 2",
+            "price": 220,
+            "article": "B2",
+            "available": true,
+            "season": "boots"
+        },
+        {
+            "image": "Boots3.jpg",
+            "name": "B-shit 3",
+            "price": 320,
+            "article": "B3",
+            "available": true,
+            "season": "boots"
+        },
+        {
+            "image": "Boots4.jpg",
+            "name": "B-shit 4",
+            "price": 420,
+            "article": "B4",
+            "available": true,
+            "season": "boots"
+        },
+        {
+            "image": "Boots5.jpg",
+            "name": "B-shit 5",
+            "price": 520,
+            "article": "B5",
+            "available": true,
+            "season": "boots"
+        },
+        {
+            "image": "Boots6.jpg",
+            "name": "B-shit 6",
+            "price": 620,
+            "article": "B6",
+            "available": true,
+            "season": "boots"
+        },
+        {
+            "image": "Hat1.jpg",
+            "name": "H-shit 1",
+            "price": 115,
+            "article": "H1",
+            "available": true,
+            "season": "hat"
+        },
+        {
+            "image": "Hat2.jpg",
+            "name": "H-shit 2",
+            "price": 215,
+            "article": "H2",
+            "available": true,
+            "season": "hat"
+        },
+        {
+            "image": "Hat3.jpg",
+            "name": "H-shit 3",
+            "price": 315,
+            "article": "H3",
+            "available": true,
+            "season": "hat"
+        },
+        {
+            "image": "Hat4.jpg",
+            "name": "H-shit 4",
+            "price": 415,
+            "article": "H4",
+            "available": true,
+            "season": "hat"
+        },
+        {
+            "image": "Hat5.jpg",
+            "name": "H-shit 5",
+            "price": 515,
+            "article": "H5",
+            "available": true,
+            "season": "hat"
+        },
+        {
+            "image": "Hat6.jpg",
+            "name": "H-shit 6",
+            "price": 615,
+            "article": "H6",
+            "available": true,
+            "season": "hat"
+        }
+    ]
+}
