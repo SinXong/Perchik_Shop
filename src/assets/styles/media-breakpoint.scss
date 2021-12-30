@@ -216,6 +216,10 @@
             }
         }
     }
+
+    .alert {
+        width: 80%;
+    }
 }
 
 @media screen and (min-width: 401px) and (max-width: 576px) {
@@ -446,6 +450,10 @@
                 height: 35px;
             }
         }
+    }
+
+    .alert {
+        width: 70%;
     }
 }
 
@@ -678,11 +686,15 @@
             input {
                 margin-top: 10%;
                 border-radius: 10px;
-                font-size: 13px;
+                font-size: 11px;
                 width: 17%;
                 height: 35px;
             }
         }
+    }
+
+    .alert {
+        width: 40%;
     }
 }
 
@@ -727,6 +739,70 @@
         }
     }
 
+    .items {
+        flex-direction: column;
+
+        .items__card {
+            width: 100%;
+        }
+
+        .items__pay {
+            height: 150px;
+            width: 80%;
+            margin: 3% auto;
+            justify-content: center;
+        }
+    }
+
+    .card__quantity {
+        width: 30%;
+        justify-content: space-around;
+
+        .card__btn {
+            width: 22%;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+
+    .modal__body {
+        width: 80%;
+
+        h1 {
+            font-size: 30px;
+        }
+
+        .payment_card {
+            width: 100%;
+        }
+
+        .payment_card_one {
+            height: 150px;
+
+            input {
+                font-size: 15px;
+                height: 35px;
+            }
+        }
+
+        .payment_card_two {
+            height: 150px;
+
+            input {
+                margin-top: 5%;
+                border-radius: 10px;
+                font-size: 13px;
+                width: 17%;
+                height: 35px;
+            }
+        }
+    }
+
+    .alert {
+        width: 40%;
+    }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1200px) {
@@ -769,6 +845,92 @@
         }
     }
 
+    .card__basket {
+        height: 300px;
+
+        .basket__img {
+            width: 20%;
+            height: 70%;
+
+            img {
+                padding: 15% 0;
+                width: 100%;
+            }
+        }
+
+        p {
+            width: 25%;
+        }
+
+        .basket__body {
+            width: 50%;
+        }
+    }
+
+    .items {
+        flex-direction: row;
+
+        .items__card {
+            width: 63%;
+        }
+
+        .items__pay {
+            height: 150px;
+            width: 32%;
+            margin: 3% auto;
+            justify-content: center;
+        }
+    }
+
+    .card__quantity {
+        width: 30%;
+        justify-content: space-around;
+
+        .card__btn {
+            width: 22%;
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+
+    .modal__body {
+        width: 60%;
+
+        h1 {
+            font-size: 30px;
+        }
+
+        .payment_card {
+            width: 100%;
+        }
+
+        .payment_card_one {
+            height: 150px;
+
+            input {
+                font-size: 15px;
+                height: 35px;
+            }
+        }
+
+        .payment_card_two {
+            height: 150px;
+
+            input {
+                margin-top: 5%;
+                border-radius: 10px;
+                font-size: 13px;
+                width: 17%;
+                height: 35px;
+            }
+        }
+    }
+
+    .alert {
+        width: 40%;
+    }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1300px) {

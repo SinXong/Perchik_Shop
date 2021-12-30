@@ -34,6 +34,11 @@
       </div>
       <main-button @click="deleteBasket">Оплатить</main-button>
     </main-model-window>
+    <main-alert 
+      :class="{ active_alert: isTarget }"
+    >
+      Ваш заказ сформирован =)
+    </main-alert>
   </div>
 </template>
 
@@ -47,6 +52,7 @@ export default {
   data() {
     return {
       isOpen: false,
+      isTarget: false,
     };
   },
   computed: {
@@ -59,7 +65,7 @@ export default {
     ...mapActions({
       deleteFromCard: "basket/deleteFromCard",
       sumPrice: "basket/sumPrice",
-      emptyBasket: "basket/emptyBasket"
+      emptyBasket: "basket/emptyBasket",
     }),
     deleteCard(index) {
       this.deleteFromCard(index);
@@ -77,14 +83,20 @@ export default {
     deleteBasket() {
       this.isOpen = false;
       this.emptyBasket();
-    }
+      this.isTarget = true;
+    },
   },
   watch: {
     isOpen(newValue) {
       const body = document.querySelector("body");
-      newValue ? body.style.cssText = `overflow : hidden` : body.style.cssText = `overflow : auto`;
+      newValue ? (body.style.cssText = `overflow : hidden`) : (body.style.cssText = `overflow : auto`);
+    },
+    isTarget(newValue){
+      if(newValue === true) {
+        setTimeout(() => {this.isTarget = false}, 3500);
+      }
     }
-  }
+  },
 };
 </script>
 
@@ -106,25 +118,24 @@ export default {
 .items__card {
   width: 60%;
 }
-.basket__img{
+.basket__img {
   height: inherit;
   display: flex;
   align-items: center;
 }
-.basket__body{
+.basket__body {
   width: 40%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  button{
+  button {
     width: 30%;
   }
 }
-.card__quantity{
-  // width: 20%;
-  .card__btn{
+.card__quantity {
+  .card__btn {
     width: 25%;
-    button{
+    button {
       width: 100%;
     }
   }
