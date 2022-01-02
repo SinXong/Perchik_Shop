@@ -44,10 +44,10 @@ export default {
 .logo {
   width: 30%;
   a {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 34px;
     color: black;
-    &:hover{
+    &:hover {
       text-decoration-line: underline;
     }
   }

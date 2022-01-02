@@ -1,5 +1,5 @@
 <template>
-  <div class="cards">
+  <main class="cards">
     <div class="cards__select">
       <main-select v-model="selectedSort" :options="sortOptions" />
     </div>
@@ -7,7 +7,7 @@
       <card-item v-if="filterProducts.length === 0" :cards="products" />
       <card-item v-else :cards="filterProducts" />
     </div>
-  </div>
+  </main>
 </template>
 
 <script>

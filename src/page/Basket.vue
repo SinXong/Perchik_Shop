@@ -1,5 +1,5 @@
 <template>
-  <div class="items">
+  <main class="items">
     <div class="items__card" v-if="cards.length > 0">
       <transition-group name="fade">
         <card-basket
@@ -34,12 +34,10 @@
       </div>
       <main-button @click="deleteBasket">Оплатить</main-button>
     </main-model-window>
-    <main-alert 
-      :class="{ active_alert: isTarget }"
-    >
+    <main-alert :class="{ active_alert: isTarget }">
       Ваш заказ сформирован =)
     </main-alert>
-  </div>
+  </main>
 </template>
 
 <script>
@@ -89,13 +87,17 @@ export default {
   watch: {
     isOpen(newValue) {
       const body = document.querySelector("body");
-      newValue ? (body.style.cssText = `overflow : hidden`) : (body.style.cssText = `overflow : auto`);
+      newValue
+        ? (body.style.cssText = `overflow : hidden`)
+        : (body.style.cssText = `overflow : auto`);
     },
-    isTarget(newValue){
-      if(newValue === true) {
-        setTimeout(() => {this.isTarget = false}, 3500);
+    isTarget(newValue) {
+      if (newValue === true) {
+        setTimeout(() => {
+          this.isTarget = false;
+        }, 3500);
       }
-    }
+    },
   },
 };
 </script>

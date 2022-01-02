@@ -24,7 +24,7 @@ export default {
   border-radius: 20px;
   align-items: center;
   border: 2px solid green;
-  background: darkseagreen;
+  background: none;
   transition: bottom 1s ease;
   p {
     color: green;
