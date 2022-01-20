@@ -38,5 +38,4 @@
 :white_check_mark: Имитация покупки
 
 :white_check_mark: Адаптив
-
-![alt]((./img/picture.jpg)
+![images](img/picture.jpg)
