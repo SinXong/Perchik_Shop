@@ -39,4 +39,4 @@
 
 :white_check_mark: Адаптив
 
-![alt]((img/picture.jpg)
+![alt]((/img/picture.jpg)
